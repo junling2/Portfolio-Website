@@ -8,7 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -43,27 +43,106 @@
 </div>
 </nav>
 <!--- Image Slider -->
-
-
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="images/carousel1.png" />
+		<div class="carousel-caption">
+			<h1 class="display-2">Junling Qu</h1>
+			<h3>Junior Electrical & Computer Engineer</h3>
+		</div>
+	</div>
+	<div class="carousel-item active">
+		<img src="images/carousel2.png" />
+	</div>
+	<div class="carousel-item active">
+		<img src="images/carousel3.png" />
+	</div>
+</div>
+</div>
 <!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">
+			Welcome to my website made using Bootstrap 4. Hope you enjoy your stay.
+		</p>
+	</div>
+</div>
+</div>
 
+<!--- About Me Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">About Me</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">
+			I graduated from the University of Alberta in June 2019 with a BSc. in Electrical Engineering.
+			Since then, I have been working in the Network Security industry as a Product Release QA Engineer.
+			I'm passionate about new technologies, and I try to learn from different personal projects ranging from
+			mobile game development to cloud applications. I'm also a big fan of Formula 1 Racing, feel free to check out my
+			blog at the link below!
+		</p>
+	</div>
+	<div class="col-12">
+		<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Blog</button></a>
+	</div>
+</div>
+</div>
+<hr class="my-4">
 
-<!--- Welcome Section -->
+<!--- Work Experiences Section -->
+<div class="container py-5">
+    <div class="row text-center text-black mb-5">
+        <div class="col-lg-8 mx-auto">
+            <h1 class="display-4">Work Experiences</h1>
+        </div>
+    </div><!-- End -->
+        <div class="row">
+            <div class="col-lg-7 mx-auto">
 
+                <!-- Timeline -->
+                <ul class="timeline">
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h4 mb-0">Title of section 1</h2><span class="medium text-gray"><i class="far fa-clock"></i> 21 March, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h4 mb-0">Title of section 2</h2><span class="medium text-gray"><i class="far fa-clock"></i> 5 April, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
+                        <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
+                    </li>
+										<li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h4 mb-0">Title of section 3</h2><span class="medium text-gray"><i class="far fa-clock"></i> 5 April, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
+                        <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
+                    </li>
+										<li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h4 mb-0">Title of section 4</h2><span class="medium text-gray"><i class="far fa-clock"></i> 5 April, 2019</span>
+                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
+                        <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
+                    </li>
+                </ul><!-- End -->
 
-<!--- Three Column Section -->
-
-
-<!--- Two Column Section -->
-
+            </div>
+        </div>
+</div>
+<hr class="my-4">
 
 <!--- Fixed background -->
 
-
-<!--- Emoji Section -->
-
-
-<!--- Meet the team -->
 
 
 <!--- Cards -->
